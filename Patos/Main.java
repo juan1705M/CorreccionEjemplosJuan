@@ -4,6 +4,7 @@ public class Main {
         Pato mandarin = new PatoMandarin();
         Pato deHule = new PatoDeHule();
         Pato deCasa = new PatoDeCasa();
+        Pato VendedorRosas = new PatoVendedorDeRosas();
     
 
     System.out.println("=== Pato Mallard ===");
@@ -29,5 +30,11 @@ public class Main {
         deCasa.nadar();
         deCasa.hacerQuack();
         deCasa.emprenderVuelo();
-}
+
+        System.out.println("\n=== Pato Vendedor de Rosas ===");
+        VendedorRosas.dibujar();
+        VendedorRosas.nadar();
+        VendedorRosas.hacerQuack();
+        VendedorRosas.emprenderVuelo();
+    }
 }
